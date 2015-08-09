@@ -1,0 +1,92 @@
+#outline{
+	  display: flex;
+  margin: 0 auto;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(132, 104, 104);
+  /* width: 50%; */
+  max-width: 500px;
+  min-height: 500px;
+  position :relative;
+  }
+  #outline>div{
+       width:23%;
+   
+       border-radius: 5px;
+       background-color:  rgb(213, 145, 145);
+       margin: 1%;
+       text-align: center;
+       height: 115px;
+   }
+   .class0::after{
+   	content: "";
+  font-size: 5em;
+   }
+.class2::after{
+  content: "2";
+  font-size: 5em;
+}
+.class4::after{
+  content: "4";
+  font-size: 5em;
+}
+.class8::after{
+  content: "8";
+  font-size: 5em;
+}
+.class16::after{
+  content: "16";
+  font-size: 5em;
+}
+.class32::after{
+  content: "32";
+  font-size: 5em;
+}
+.class64::after{
+  content: "64";
+  font-size: 5em;
+}
+.class128::after{
+  content: "128";
+  font-size: 5em;
+}
+.class256::after{
+  content: "256";
+  font-size: 5em;
+}
+.class512::after{
+  content: "512";
+  font-size: 3em;
+}
+.class1024::after{
+  content: "1024";
+  font-size: 3em;
+}
+.class2048::after{
+  content: "2048";
+  font-size: 3em;
+}
+#lightbox{
+  width:100%;
+  text-align: center;
+  position: absolute;
+  background-color: rgba(247, 242, 242, 0.56);
+  top:0;
+  height: 750px;
+  display:none;
+
+}
+#score{
+  position: absolute;
+  top:0;
+  right:10%;
+  margin: 1% auto;
+  text-align: center;
+  line-height: 60px;
+
+
+  border-radius: 5px;
+  background-color: rgb(47, 148, 47);
+  font-size: 2em;
+}
